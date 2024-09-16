@@ -1,0 +1,45 @@
+Datos:
+1. La temperatura media de una ciudad durante el verano (en grados Celsius).
+2. El precio de un producto en una tienda (en dólares y centavos).
+3. El nombre completo de una persona.
+4. La fecha de nacimiento de una persona.
+5. El número de habitantes de una ciudad.
+6. La duración de una película (en minutos).
+7. Si un artículo está disponible o no en una tienda (true/false).
+8. La distancia entre dos ciudades (en kilómetros).
+9. El número de teléfono de una persona.
+10.La cantidad de existencias de un producto en una tienda.
+
+Instrucciones:
+A. Para cada dato proporcionado, selecciona el tipo de dato más adecuado en
+Java.
+B. Justifica tu elección explicando por qué crees que ese tipo de dato es el más
+apropiado para representar la información dada.
+
+------------------------------------------------------------------
+
+1. Temperatura media de una ciudad durante el verano: double (se permite decimal
+y cubre un amplio rango de valores posibles para la temperatura).
+2. Precio de un producto en una tienda: double (se permite decimal y puede
+representar valores de dinero precisos).
+3. Nombre completo de una persona: String (los nombres pueden contener
+caracteres alfanuméricos y no necesitan realizar cálculos aritméticos).
+
+4. Fecha de nacimiento de una persona: LocalDate (los objetos LocalDate son
+adecuados para representar fechas y proporcionan métodos útiles para
+manipularlas).
+5. Número de habitantes de una ciudad: long (un entero de 64 bits es adecuado
+para representar números grandes, como la población de una ciudad).
+6. Duración de una película: int (los números enteros son adecuados para
+representar duraciones en minutos, ya que no se pueden tener fracciones de
+minutos).
+7. Disponibilidad de un artículo en una tienda: boolean (los valores booleanos son
+adecuados para representar estados de verdadero o falso, en este caso, la
+disponibilidad del artículo).
+8. Distancia entre dos ciudades: double (se permite decimal y puede representar
+distancias precisas en kilómetros).
+9. Número de teléfono de una persona: String (los números de teléfono pueden
+contener caracteres especiales y no necesitan realizar cálculos aritméticos).
+10. Cantidad de existencias de un producto en una tienda: int (los números enteros
+son adecuados para representar cantidades enteras como la cantidad de
+existencias de un producto).
